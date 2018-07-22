@@ -164,6 +164,7 @@ function notSiri() {
     });
 }
 
+// function to log the results of each swtich call
 function log(logging){
     fs.appendFile('log.txt', logging, function(error){
         if(error){
